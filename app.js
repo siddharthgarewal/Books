@@ -31,10 +31,8 @@ app.use(function(req, res, next) {
 });
 
 // Database connection
-// 'mongodb+srv://myBookSystem:Book123@cluster0.8felx.mongodb.net/myBookSystem?retryWrites=true&w=majority'
 async function main() {
-  const uri =
-    'mongodb+srv://myBookSystem:Book123@cluster0.8felx.mongodb.net/Book_System?retryWrites=true&w=majority'
+  const uri = "URL"
 
   mongoose
     .connect(uri, {
